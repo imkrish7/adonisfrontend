@@ -1,0 +1,118 @@
+
+
+.default_page{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register, .login{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  margin: 0rem 0.5rem
+}
+
+.btn a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.form_wrapper, .success{
+  width: 30%;
+  margin: auto;
+  box-shadow: 0px 0px 20px 0px #bbb;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.message{
+  color: rgba(0,148,0,1);
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bolder;
+  font-style: italic;
+}
+ .submitbtn{
+  display: flex;
+  justify-content: center;
+}
+
+.input{
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin: 0.5rem 0rem;
+  box-shadow: 0px 0px 4px 0px #ccc;
+}
+
+.btn{
+  border: none;
+  background: #448ddb;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem;
+  outline: none;
+  border-radius: 0.3rem;
+  box-shadow: inset 0px 0px 4px 0px #448ddb;
+}
+
+/* Dashbaord */
+
+.dashboard{
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 80px 1fr;
+}
+
+.header{
+  display: flex;
+  justify-content: space-evenly;
+  height: 50px;
+  align-items: center;
+  box-shadow: 0px 0px 4px 0px #bbb;
+}
+
+.logo{
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #c0392b;
+}
+
+.actions{
+  border: 1px solid #c0392b;
+  padding: 0.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: #c0392b;
+}
+
+main{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.userinfo{
+  display: flex;
+  align-items: center;
+}
+
+.email{
+  font-size: 2rem;
+  color: #c0392b;
+}
+
